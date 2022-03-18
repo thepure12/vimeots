@@ -120,8 +120,8 @@ export default {
       height: 450,
       placeholder: "//player.vimeo.com/video/358305100",
       div: '<div id="video"></div>',
-      css: '<link rel="stylesheet" href="/vimeots.css">',
-      js: `<${"script"} src="vimeots.js"></${"script"}>`,
+      css: `<link rel="stylesheet" href="${window.location.href}vimeots.css">`,
+      js: `<${"script"} src="${window.location.href}vimeots.js"></${"script"}>`,
       copySuccess: false,
       copyFail: false,
     };
