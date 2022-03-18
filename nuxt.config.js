@@ -22,9 +22,9 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: '/vimeots.css' }
+      { rel: 'stylesheet', href: './vimeots.css' }
     ],
-    script: [{ src: "/vimeots.js" }],
+    script: [{ src: "./vimeots.js" }],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
