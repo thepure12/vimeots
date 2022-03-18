@@ -1,0 +1,13 @@
+.tsButtons button {
+    background: none !important;
+    border: none;
+    padding: 0 !important;
+    color: #0453C5;
+    cursor: pointer;
+    display: list-item;
+    font-size: 1em;
+}
+
+.tsButtons button::before {
+    content: "- ";
+}
